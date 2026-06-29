@@ -17,16 +17,18 @@ The project follows an end-to-end cloud analytics pipeline:
               (Raw Customer Data)
                        │
                        ▼
-                 Snowflake Data Warehouse
-          (Data Validation & Initial Analysis)
-                       │
-                       ▼
-          Data Cleaning & Feature Engineering
+            Snowflake Data Warehouse
+      (Data Validation & Initial Analysis)
+                        &
+          Data Cleaning and Feature Engineering
       (Encoding, Scaling, Data Preparation)
-                       │
-                       ▼
+                        &
+                Model Development
+        (Logistic Regression and XGBoost)
+                        |
+                        ▼
             Jupyter Notebook (Python)
-      Logistic Regression | XGBoost | ANN
+                      ANN
                        │
                        ▼
                 Power BI Dashboard
